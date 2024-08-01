@@ -1,0 +1,40 @@
+.locations-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  width: 80vw;
+  margin-right: 40px;
+  margin-bottom: 10px;
+}
+@media (min-width:768px) {
+  .locations-item {
+    width: 40vw;
+  }
+}
+.img {
+  width: 100%;
+}
+.image-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  border-radius: 5px;
+  margin: 20px;
+  background-color: #ffffff;
+}
+.text-container {
+  padding: 10px;
+}
+.name-heading {
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #475569;
+}
+.description-text {
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #64748b;
+}
